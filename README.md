@@ -78,7 +78,7 @@ This is a Snapchat Replica web application that includes a sidebar for conversat
   .story-container {
     width: 160px; /* Further reduce width on mobile */
   }
-}
+}~
 
 ## 🏗️ Setup & Installation
 1. Clone the repository:
