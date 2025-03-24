@@ -1,0 +1,36 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Mobile first */
+@media (min-width: 768px) {
+  .main-content {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    margin: 40px;
+  }
+}
